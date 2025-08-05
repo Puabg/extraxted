@@ -52,9 +52,9 @@ plugins = dict(root="plugins")
 if __name__ == "__main__" :
     bot = Client(
         "StarkBot",
-        bot_token=os.environ.get("BOT_TOKEN"),
-        api_id=int(os.environ.get("API_ID")),
-        api_hash=os.environ.get("API_HASH"),
+        bot_token=os.environ.get("8403544311:AAG5eDkyybOv3N_-TmTXyifFO8jtIhuj7r8"),
+        api_id=int(os.environ.get("20073998")),
+        api_hash=os.environ.get("4a6646ff9aa61d078637ea05853bc317"),
         sleep_threshold=20,
         plugins=plugins,
         workers = 50
@@ -68,3 +68,4 @@ if __name__ == "__main__" :
     
     asyncio.get_event_loop().run_until_complete(main())
     LOGGER.info(f"<---Bot Stopped-->")
+
